@@ -12,7 +12,6 @@ class ArticlesController < ApplicationController
   end
 
   private
-
   def record_not_found
     render json: { error: "Article not found" }, status: :not_found
   end
